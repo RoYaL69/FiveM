@@ -1,5 +1,5 @@
 -- Loading MySQL Class
-require "resources/essentialmode/lib/MySQL"
+server_script "resources/essentialmode/lib/MySQL.lua"
 MySQL:open(database.host, database.name, database.username, database.password)
 
 local max_number_weapons = 6 --maximum number of weapons that the player can buy. Weapons given at spawn doesn't count.

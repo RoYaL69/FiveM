@@ -4,7 +4,7 @@
 -- NO TOUCHY, IF SOMETHING IS WRONG CONTACT KANERSPS! --
 
 -- Loading MySQL Class
-require "resources/essentialmode/lib/MySQL"
+server_script "resources/essentialmode/lib/MySQL.lua"
 
 -- MySQL:open("IP", "databasname", "user", "password")
 MySQL:open(database.host, database.name, database.username, database.password)

@@ -1,5 +1,5 @@
 -- Loading MySQL Class
-require "resources/essentialmode/lib/MySQL"
+server_script "resources/essentialmode/lib/MySQL.lua"
 MySQL:open(database.host, database.name, database.username, database.password)
 
 RegisterServerEvent('paycheck:salary')

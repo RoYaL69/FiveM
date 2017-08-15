@@ -1,6 +1,6 @@
 RegisterServerEvent("getInteriors")
 
-require "resources/essentialmode/lib/MySQL"
+server_script "resources/essentialmode/lib/MySQL.lua"
 MySQL:open(database.host, database.name, database.username, database.password)
 
 function mysql_load_interiors()

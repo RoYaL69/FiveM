@@ -1,4 +1,4 @@
-﻿-- NO TOUCHY, IF SOMETHING IS WRONG CONTACT KANERSPS! --
+-- NO TOUCHY, IF SOMETHING IS WRONG CONTACT KANERSPS! --
 -- NO TOUCHY, IF SOMETHING IS WRONG CONTACT KANERSPS! --
 -- NO TOUCHY, IF SOMETHING IS WRONG CONTACT KANERSPS! --
 -- NO TOUCHY, IF SOMETHING IS WRONG CONTACT KANERSPS! --
@@ -20,7 +20,7 @@ settings.defaultSettings = {
 }
 settings.sessionSettings = {}
 
-require "resources/essentialmode/lib/MySQL"
+server_script "resources/essentialmode/lib/MySQL.lua"
 
 AddEventHandler('playerConnecting', function(name, setCallback)
 	local identifiers = GetPlayerIdentifiers(source)
