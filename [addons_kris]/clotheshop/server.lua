@@ -5,7 +5,7 @@
 -- Time: 07:59
 -- To change this template use File | Settings | File Templates.
 --
-require "resources/essentialmode/lib/MySQL"
+server_script "resources/essentialmode/lib/MySQL.lua"
 -- MySQL:open("IP", "databasname", "user", "password")
 MySQL:open(database.host, database.name, database.username, database.password)
 

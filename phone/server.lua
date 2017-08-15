@@ -1,8 +1,8 @@
 --====================================================================================
 -- #Author: Jonathan D @Gannon
 --====================================================================================
-require "resources/mysql-async/lib/MySQL"
-require 'resources/gcphone/mysqltimestamp'
+server_script "resources/mysql-async/lib/MySQL.lua"
+server_script 'resources/gcphone/mysqltimestamp.lua'
 --====================================================================================
 --  
 --====================================================================================
