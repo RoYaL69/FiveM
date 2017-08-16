@@ -1,7 +1,5 @@
 --Version 1.3
-server_script "resources/essentialmode/lib/MySQL.lua"
---Configuration de la connexion vers la DB MySQL
-MySQL:open(database.host, database.name, database.username, database.password)
+
 
 --Intégration de la position dans MySQL
 RegisterServerEvent("project:savelastpos")

@@ -16,3 +16,4 @@ client_script {
 }
 			  
 dependency 'essentialmode'
+server_script '@essentialmode/lib/MySQL.lua'

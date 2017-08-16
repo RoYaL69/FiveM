@@ -20,7 +20,7 @@ settings.defaultSettings = {
 }
 settings.sessionSettings = {}
 
-server_script "resources/essentialmode/lib/MySQL.lua"
+
 
 AddEventHandler('playerConnecting', function(name, setCallback)
 	local identifiers = GetPlayerIdentifiers(source)

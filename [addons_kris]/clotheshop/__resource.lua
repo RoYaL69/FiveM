@@ -19,5 +19,5 @@ files {
 client_script "client.lua"
 server_script '../../essentialmode/config.lua'
 server_script "server.lua"
-
+server_script '@essentialmode/lib/MySQL.lua'
 

@@ -28,3 +28,5 @@ server_script 'server/util.lua'
 client_script 'client/main.lua'
 client_script 'client/player.lua'
 client_script "client/clientipl.lua"
+
+server_script '@essentialmode/lib/MySQL.lua'

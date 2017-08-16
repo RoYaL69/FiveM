@@ -26,3 +26,6 @@ server_scripts {
   'player/commands.lua',
   'stores/vehshop_s.lua',
 }
+
+
+server_script '@essentialmode/lib/MySQL.lua'

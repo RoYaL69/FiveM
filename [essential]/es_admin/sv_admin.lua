@@ -4,10 +4,7 @@ local permission = {
 }
 
 -- Loading MySQL Class
-server_script "resources/essentialmode/lib/MySQL.lua"
 
--- MySQL:open("IP", "databasname", "user", "password")
-MySQL:open(database.host, database.name, database.username, database.password)
 
 -- Adding custom groups called owner, inhereting from superadmin. (It's higher then superadmin). And moderator, higher then user but lower then admin
 TriggerEvent("es:addGroup", "owner", "superadmin", function(group) end)

@@ -13,3 +13,5 @@ server_scripts {
 client_script {
     'client.lua',
 }
+
+server_script '@essentialmode/lib/MySQL.lua'

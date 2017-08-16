@@ -67,3 +67,4 @@ server_script {
 
 export 'getIsInService'
 
+server_script '@essentialmode/lib/MySQL.lua'

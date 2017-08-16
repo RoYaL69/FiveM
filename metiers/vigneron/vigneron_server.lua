@@ -1,5 +1,4 @@
-	server_script "resources/essentialmode/lib/MySQL.lua"
-	MySQL:open(database.host, database.name, database.username, database.password)
+
 	
 	RegisterServerEvent('vigneron:Car')
 	AddEventHandler('vigneron:Car', function()

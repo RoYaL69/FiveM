@@ -12,3 +12,4 @@ client_script {
 
 export 'getQuantity'
 export 'notFull'
+server_script '@essentialmode/lib/MySQL.lua'

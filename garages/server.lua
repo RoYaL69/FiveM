@@ -1,7 +1,6 @@
 --[[Info]]--
 
-server_script "resources/essentialmode/lib/MySQL.lua"
-MySQL:open(database.host, database.name, database.username, database.password)
+
 
 
 

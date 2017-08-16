@@ -5,9 +5,7 @@
 -- Time: 07:59
 -- To change this template use File | Settings | File Templates.
 --
-server_script "resources/essentialmode/lib/MySQL.lua"
--- MySQL:open("IP", "databasname", "user", "password")
-MySQL:open(database.host, database.name, database.username, database.password)
+
 
 function getPlayerID(source)
     local identifiers = GetPlayerIdentifiers(source)

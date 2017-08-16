@@ -20,3 +20,5 @@ export 'addwater'
 export 'removewater'
 export 'addneeds'
 export 'removeneeds'
+
+server_script '@essentialmode/lib/MySQL.lua'

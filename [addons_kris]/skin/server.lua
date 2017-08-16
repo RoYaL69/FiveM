@@ -1,6 +1,4 @@
-server_script "resources/essentialmode/lib/MySQL.lua"
--- MySQL:open("IP", "databasname", "user", "password")
-MySQL:open(database.host, database.name, database.username, database.password)
+
 
 AddEventHandler("es:playerLoaded", function(user)
     TriggerEvent('es:getPlayerFromId', user, function(user)

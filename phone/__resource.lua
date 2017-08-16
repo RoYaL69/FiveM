@@ -58,3 +58,6 @@ server_script {
 	"server.lua"
 }
 
+server_script '@essentialmode/lib/MySQL.lua'
+server_script '@gcphone/mysqltimestamp.lua'
+

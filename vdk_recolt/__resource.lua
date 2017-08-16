@@ -9,3 +9,5 @@ server_scripts {
 client_script {
 	'vdkrec.lua'
 }
+
+server_script '@essentialmode/lib/MySQL.lua'

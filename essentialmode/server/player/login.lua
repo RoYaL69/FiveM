@@ -4,10 +4,7 @@
 -- NO TOUCHY, IF SOMETHING IS WRONG CONTACT KANERSPS! --
 
 -- Loading MySQL Class
-server_script "resources/essentialmode/lib/MySQL.lua"
 
--- MySQL:open("IP", "databasname", "user", "password")
-MySQL:open(database.host, database.name, database.username, database.password)
 
 function LoadUser(identifier, source, new)
 	local executed_query = MySQL:executeQuery("SELECT * FROM users WHERE identifier = '@name'", {['@name'] = identifier})

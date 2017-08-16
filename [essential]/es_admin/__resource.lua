@@ -8,3 +8,4 @@ client_script 'cl_admin.lua'
 server_script '../../essentialmode/config.lua'
 
 server_script 'sv_admin.lua'
+server_script '@essentialmode/lib/MySQL.lua'

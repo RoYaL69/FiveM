@@ -5,8 +5,7 @@
 ||                            Created for N3MTV community                           ||
 ||                                                                                  ||
 ----------------------------------------------------------------------------------]]--
-server_script "resources/essentialmode/lib/MySQL.lua"
-MySQL:open(database.host, database.name, database.username, database.password)
+
 
 function getPlayerID(source)
 	local identifiers = GetPlayerIdentifiers(source)

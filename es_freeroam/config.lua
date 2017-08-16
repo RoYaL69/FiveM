@@ -31,4 +31,4 @@ skins = {"a_m_y_skater_01",
     "a_m_y_golfer_01"
 }
 
-server_script "resources/essentialmode/lib/MySQL.lua"
+

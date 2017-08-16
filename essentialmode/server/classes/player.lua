@@ -3,11 +3,7 @@
 -- NO TOUCHY, IF SOMETHING IS WRONG CONTACT KANERSPS! --
 -- NO TOUCHY, IF SOMETHING IS WRONG CONTACT KANERSPS! --
 
--- Loading MySQL Class
-server_script "resources/essentialmode/lib/MySQL.lua"
 
--- MySQL:open("IP", "databasname", "user", "password")
-MySQL:open(database.host, database.name, database.username, database.password)
 
 
 -- Constructor

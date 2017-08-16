@@ -8,8 +8,8 @@
 ----------------------------------------------------- INIT DATABASE  ---------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------
 
-server_script "resources/essentialmode/lib/MySQL.lua"
-MySQL:open(database.host, database.name, database.username, database.password)
+
+
 
 -----------------------------------------------------------------------------------------------------------------------
 RegisterServerEvent("accessories_switcher:server_wearHat")

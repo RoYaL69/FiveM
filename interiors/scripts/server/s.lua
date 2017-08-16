@@ -1,7 +1,6 @@
 RegisterServerEvent("getInteriors")
 
-server_script "resources/essentialmode/lib/MySQL.lua"
-MySQL:open(database.host, database.name, database.username, database.password)
+
 
 function mysql_load_interiors()
 	local executed_query = MySQL:executeQuery("SELECT * FROM interiors WHERE 1 = @where", {['@where'] = "1"})
